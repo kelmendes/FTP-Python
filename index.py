@@ -1,9 +1,10 @@
 import funcao #Importando modulos
 
-'''site = input('Informe o Site/Dominio: ')
+site = input('Informe o Site/Dominio: ')
 user = input('Informe o Usuario: ')
-senha = input('Informe a senha: ')'''
-funcao.conexao('klebsonm.net16.net', 'a7656173', 'klebson')
+senha = input('Informe a senha: ')
+funcao.conexao(site, user, senha)
+
 # Listando os diretorios
 print ('++----------------------------------------------------------------------------------++')
 print ('++                           Diretorios do Servidor                                 ++')
